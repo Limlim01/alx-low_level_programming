@@ -10,6 +10,8 @@ void jack_bauer(void)
 
 	for (i = 0; i <= 2; i++)
 	{
+	for (j = 0; j <= 9; j++)
+	{
 	for (k = 0; k <= 5; k++)
 	{
 	for (m = 0; m <= 9; m++)
@@ -24,6 +26,7 @@ void jack_bauer(void)
 	_putchar(k + '0');
 	_putchar(m + '0');
 	_putchar('\n');
+	}
 	}
 	}
 	}
